@@ -2,6 +2,7 @@
 {
     private static void Main(string[] args)
     {
+        Console.WriteLine("Hello, programmer");
         Console.WriteLine("Enter your first name:");
         string fName = Console.ReadLine();
         Console.WriteLine("Enter your family name:");
@@ -18,7 +19,7 @@
         Console.WriteLine("    *       *    ");
         Console.WriteLine("      *   *      ");
         Console.WriteLine("        *        ");
-        Console.WriteLine("Hello, programmer");
+        Console.WriteLine("Welcome "+ familyName);
         Console.WriteLine("");
         Console.WriteLine("First Name: " + fName );
         Console.WriteLine("Family Name: " + familyName);
@@ -27,6 +28,7 @@
         Console.WriteLine("Email: " + email);
         Console.WriteLine("Github Username:" + gName);
         Console.ReadLine();
-
+        Console.WriteLine("THANK YOU FOR USING OUR APP, HAVE A NICE DAY");
+        Console.ReadLine();
     }
 }
